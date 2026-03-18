@@ -21,5 +21,5 @@ jobs:
         cache: maven
 
     - name: Build and Run Tests
-    working-directory: ./java
+      working-directory: ./lab6
       run: mvn test
